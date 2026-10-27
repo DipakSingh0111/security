@@ -22,9 +22,6 @@ export type SecurityAboutData = typeof sec.About.variants.SecurityAbout1;
 export type SecurityServicesData = typeof sec.Services.variants.SecurityServices1;
 export type SecurityIndustriesData =
   typeof sec.Industries.variants.SecurityIndustries1;
-export type SecurityStatsData = typeof sec.Stats.variants.SecurityStats1;
-export type SecurityTestimonialData =
-  typeof sec.Testimonial.variants.SecurityTestimonial1;
 export type SecurityCtaData = typeof sec.Cta.variants.SecurityCta1;
 export type SecurityFooterData = typeof sec.Footer.variants.SecurityFooter1;
 
@@ -66,13 +63,6 @@ export type SecurityIndustriesHeading = SecurityIndustriesData["heading"];
 export type SecurityIndustryFeatureItem =
   SecurityIndustriesData["features"][number];
 
-/* Stats */
-export type SecurityStatItem = SecurityStatsData["stats"][number];
-
-/* Testimonial */
-export type SecurityTestimonialItem =
-  SecurityTestimonialData["testimonialItems"][number];
-
 /* Footer */
 export type SecurityFooterColumn = SecurityFooterData["columns"][number];
 export type SecurityFooterLink = SecurityFooterColumn["links"][number];
@@ -82,9 +72,6 @@ export type SecurityFooterContactLine = SecurityFooterContactItem["lines"][numbe
 export type SecuritySocialLink = SecurityFooterData["socialLinks"][number];
 export type SecurityMissionData = typeof sec.Mission.variants.SecurityMission1;
 export type SecurityMissionItem = SecurityMissionData["items"][number];
-export type SecurityTeamData = typeof sec.Team.variants.SecurityTeam1;
-export type SecurityTeamMember = SecurityTeamData["members"][number];
-export type SecurityTeamMemberDetail = SecurityTeamData["details"][number];
 export type SecurityGalleryData = typeof sec.Gallery.variants.SecurityGallery1;
 export type SecurityGalleryImage = SecurityGalleryData["images"][number];
 export type SecurityFAQData = typeof sec.FAQ.variants.SecurityFAQ1;
@@ -101,6 +88,8 @@ export type SecurityPrivacyData = typeof sec.Legal.variants.SecurityPrivacy1;
 export type SecurityTermsData = typeof sec.Legal.variants.SecurityTerms1;
 export type SecurityRefundData = typeof sec.Legal.variants.SecurityRefund1;
 export type SecurityShippingData = typeof sec.Legal.variants.SecurityShipping1;
+export type SecurityWelcomeData = typeof sec.Welcome.variants.SecurityWelcome1;
+export type SecuritySkillsData = typeof sec.Skills.variants.SecuritySkills1;
 
 /* Site object                                                         */
 
@@ -111,12 +100,9 @@ export const site = {
   about: sec.About.variants.SecurityAbout1,
   services: sec.Services.variants.SecurityServices1,
   industries: sec.Industries.variants.SecurityIndustries1,
-  stats: sec.Stats.variants.SecurityStats1,
-  testimonial: sec.Testimonial.variants.SecurityTestimonial1,
   cta: sec.Cta.variants.SecurityCta1,
   footer: sec.Footer.variants.SecurityFooter1,
   mission: sec.Mission.variants.SecurityMission1,
-  team: sec.Team.variants.SecurityTeam1,
   gallery: sec.Gallery.variants.SecurityGallery1,
   faq: sec.FAQ.variants.SecurityFAQ1,
   contact: sec.Contact.variants.SecurityContact1,
@@ -128,6 +114,8 @@ export const site = {
   terms: sec.Legal.variants.SecurityTerms1,
   refund: sec.Legal.variants.SecurityRefund1,
   shipping: sec.Legal.variants.SecurityShipping1,
+  welcome: sec.Welcome.variants.SecurityWelcome1,
+  skills: sec.Skills.variants.SecuritySkills1,
 };
 
 /* Slug helper                                                         */
@@ -212,23 +200,6 @@ export function getIndustryById(id: number): SecurityIndustryItem | null {
   return industryItems.find((item) => item.id === id) || null;
 }
 
-/* Stats helpers                                                       */
-
-const statItems = sec.Stats.variants.SecurityStats1.stats as SecurityStatItem[];
-
-export function getStats(): SecurityStatItem[] {
-  return statItems;
-}
-
-/* Testimonial helpers                                                 */
-
-const testimonialItems = sec.Testimonial.variants.SecurityTestimonial1
-  .testimonialItems as SecurityTestimonialItem[];
-
-export function getTestimonials(): SecurityTestimonialItem[] {
-  return testimonialItems;
-}
-
 /* About helpers                                                       */
 
 export function getAboutFeatures(): SecurityAboutFeatureItem[] {
@@ -238,32 +209,6 @@ export function getAboutFeatures(): SecurityAboutFeatureItem[] {
 // mission vission
 export function getMissionData(): SecurityMissionData {
   return sec.Mission.variants.SecurityMission1;
-}
-
-/* Team helpers                                                        */
-
-const teamMembers = sec.Team.variants.SecurityTeam1
-  .members as SecurityTeamMember[];
-const teamMemberDetails = sec.Team.variants.SecurityTeam1.details;
-
-export function getTeamMembers(): SecurityTeamMember[] {
-  return teamMembers;
-}
-
-export function getTeamMemberBySlug(slug: string): SecurityTeamMember | null {
-  const cleanSlug = normalizeSlug(slug, "team");
-  return teamMembers.find((member) => member.slug === cleanSlug) || null;
-}
-
-export function getTeamMemberDetails(): SecurityTeamMemberDetail[] {
-  return teamMemberDetails;
-}
-
-export function getTeamMemberDetailBySlug(
-  slug: string,
-): SecurityTeamMemberDetail | null {
-  const cleanSlug = normalizeSlug(slug, "team");
-  return teamMemberDetails.find((detail) => detail.slug === cleanSlug) || null;
 }
 
 /* Gallery helpers                                                     */
@@ -330,6 +275,14 @@ export function getRefundData(): SecurityRefundData {
 
 export function getShippingData(): SecurityShippingData {
   return sec.Legal.variants.SecurityShipping1;
+}
+
+export function getWelcomeData(): SecurityWelcomeData {
+  return sec.Welcome.variants.SecurityWelcome1;
+}
+
+export function getSkillsData(): SecuritySkillsData {
+  return sec.Skills.variants.SecuritySkills1;
 }
 
 export const siteData = securityData;

@@ -21,14 +21,6 @@
               {
                 "key": "Services",
                 "component": "SecurityServices1"
-              },
-              {
-                "key": "Stats",
-                "component": "SecurityStats1"
-              },
-              {
-                "key": "Testimonial",
-                "component": "SecurityTestimonial1"
               }
             ]
           }
@@ -1310,99 +1302,6 @@
           }
         }
       },
-      "Stats": {
-        "variants": {
-          "SecurityStats1": {
-            "badge": "PROVEN OPERATIONAL EXCELLENCE",
-            "title": {
-              "normal": "Milestones Built on",
-              "highlighted": "Discipline & Trust"
-            },
-            "desc": "Over years of dedicated service, our structured operating protocols have earned the lasting confidence of businesses and institutions nationwide.",
-            "bgImage": "/security/guard4.jpg",
-            "stats": [
-              {
-                "id": 1,
-                "icon": "shield-check",
-                "number": 15,
-                "suffix": "+",
-                "label": "Years of Experience"
-              },
-              {
-                "id": 2,
-                "icon": "users",
-                "number": 1200,
-                "suffix": "+",
-                "label": "Trained & Verified Guards"
-              },
-              {
-                "id": 3,
-                "icon": "building",
-                "number": 350,
-                "suffix": "+",
-                "label": "Corporate & Industrial Sites"
-              },
-              {
-                "id": 4,
-                "icon": "map-pin",
-                "number": 12,
-                "suffix": "+",
-                "label": "Regional Coverage Hubs"
-              }
-            ]
-          }
-        }
-      },
-      "Testimonial": {
-        "variants": {
-          "SecurityTestimonial1": {
-            "badge": "TESTIMONIALS",
-            "title": {
-              "normal": "What Our",
-              "highlighted": "Clients Say"
-            },
-            "desc": "Trusted by businesses, institutions and homeowners for our reliable and professional security guard services.",
-            "testimonialItems": [
-              {
-                "id": 1,
-                "name": "Rohit Malhotra",
-                "designation": "Operations Director,",
-                "company": "Apex Logistics Hub",
-                "companyIcon": "building",
-                "image": "/security/guard5.jpg",
-                "rating": 5,
-                "quote": "The security team deployed at our logistics facility has demonstrated exemplary discipline and punctuality. Shift handovers and gate surveillance are managed seamlessly. We are highly impressed by their service."
-              },
-              {
-                "id": 2,
-                "name": "Sunita Rao",
-                "designation": "General Manager - Admin,",
-                "company": "Trident Corporate Towers",
-                "companyIcon": "building",
-                "image": "/security/guard11.jpg",
-                "rating": 5,
-                "quote": "We have experienced outstanding service standards from their guarding staff. Rapid communication and courteous visitor handling make them an invaluable security partner for our facilities."
-              },
-              {
-                "id": 3,
-                "name": "Karan Singhal",
-                "designation": "Head of Facilities,",
-                "company": "Nova Horizon Tech Park",
-                "companyIcon": "building",
-                "image": "/security/guard10.jpg",
-                "rating": 5,
-                "quote": "Their proactive incident response and verified personnel have drastically enhanced our campus security. The management team is always accessible and receptive to our requirements."
-              }
-            ],
-            "carousel": {
-              "hasArrows": true,
-              "hasDots": true,
-              "activeDot": 1,
-              "totalDots": 3
-            }
-          }
-        }
-      },
       "Cta": {
         "variants": {
           "SecurityCta1": {
@@ -1624,226 +1523,6 @@
                 "title": "Our Vision",
                 "description": "To be a leading and most trusted security service provider, recognized for our integrity, technology-driven solutions and unwavering commitment to creating safer communities, workplaces and public spaces.",
                 "icon": "eye"
-              }
-            ]
-          }
-        }
-      },
-      "Team": {
-        "variants": {
-          "SecurityTeam1": {
-            "banner": {
-              "title": "Our Team",
-              "image": "/page-banner.jpg",
-              "items": [
-                {
-                  "label": "Home",
-                  "href": "/"
-                },
-                {
-                  "label": "Our Team"
-                }
-              ]
-            },
-            "detailBanner": {
-              "title": "Team Member",
-              "image": "/page-banner.jpg",
-              "items": [
-                {
-                  "label": "Home",
-                  "href": "/"
-                },
-                {
-                  "label": "Our Team",
-                  "href": "/team"
-                },
-                {
-                  "label": "Team Member"
-                }
-              ]
-            },
-            "heading": {
-              "badge": "OUR TEAM",
-              "title": "Meet Our Security Professionals"
-            },
-            "members": [
-              {
-                "id": 1,
-                "slug": "arvind-sharma",
-                "name": "Arvind Sharma",
-                "position": "Chief Security Officer",
-                "image": "/people/man1.png"
-              },
-              {
-                "id": 2,
-                "slug": "priya-singh",
-                "name": "Priya Singh",
-                "position": "Operations Manager",
-                "image": "/people/women1.png"
-              },
-              {
-                "id": 3,
-                "slug": "rakesh-kumar",
-                "name": "Rakesh Kumar",
-                "position": "Security Supervisor",
-                "image": "/people/men2.png"
-              },
-              {
-                "id": 4,
-                "slug": "ananya-sharma",
-                "name": "Ananya Sharma",
-                "position": "Training Coordinator",
-                "image": "/people/women2.png"
-              },
-              {
-                "id": 5,
-                "slug": "vikram-yadav",
-                "name": "Vikram Yadav",
-                "position": "Team Leader",
-                "image": "/people/men3.png"
-              },
-              {
-                "id": 6,
-                "slug": "meena-rawat",
-                "name": "Meena Rawat",
-                "position": "Control Room Operator",
-                "image": "/people/women5.png"
-              },
-              {
-                "id": 7,
-                "slug": "suresh-verma",
-                "name": "Suresh Verma",
-                "position": "Mobile Patrol Officer",
-                "image": "/people/men4.png"
-              },
-              {
-                "id": 8,
-                "slug": "deepika-mishra",
-                "name": "Deepika Mishra",
-                "position": "Client Relations Executive",
-                "image": "/people/women4.png"
-              }
-            ],
-            "details": [
-              {
-                "slug": "arvind-sharma",
-                "name": "Arvind Sharma",
-                "position": "Chief Security Officer",
-                "image": "/people/man1.png",
-                "imageAlt": "Arvind Sharma, Chief Security Officer",
-                "biography": "Arvind leads our security strategy and ensures every assignment is built around the safety of our clients and their people. With extensive experience in security operations, he oversees site assessments, service standards and incident readiness. He works closely with clients to understand their risks and translate them into practical plans. Arvind also supports and mentors our leadership team, building a culture of accountability, professionalism and calm decision-making. His focus is dependable protection and long-term client confidence.",
-                "highlights": [
-                  "Leads security strategy and operational standards",
-                  "Oversees client risk assessments and protection plans",
-                  "Guides incident response and escalation readiness",
-                  "Mentors team leaders and security supervisors",
-                  "Builds trusted relationships with clients"
-                ]
-              },
-              {
-                "slug": "priya-singh",
-                "name": "Priya Singh",
-                "position": "Operations Manager",
-                "image": "/people/women1.png",
-                "imageAlt": "Priya Singh, Operations Manager",
-                "biography": "Priya coordinates the people and processes that keep our security services running smoothly every day. She manages assignments, schedules and operational communication so each client receives consistent coverage. Priya works with supervisors to address changing site requirements and makes sure teams have clear instructions before every shift. She is known for her organized approach, thoughtful problem-solving and steady support for both clients and colleagues. Her priority is reliable service with the right people in the right place.",
-                "highlights": [
-                  "Coordinates staffing and day-to-day assignments",
-                  "Maintains dependable coverage across client sites",
-                  "Communicates operational updates clearly",
-                  "Supports supervisors with changing requirements",
-                  "Monitors service quality and follow-through"
-                ]
-              },
-              {
-                "slug": "rakesh-kumar",
-                "name": "Rakesh Kumar",
-                "position": "Security Supervisor",
-                "image": "/people/men2.png",
-                "imageAlt": "Rakesh Kumar, Security Supervisor",
-                "biography": "Rakesh supports frontline teams and helps ensure that site procedures are followed with care and consistency. He checks in with officers, reviews shift handovers and provides practical guidance when situations need attention. His hands-on approach helps identify small concerns before they become larger issues. Rakesh also keeps communication flowing between clients, guards and operations, making sure information reaches the right people. He takes pride in maintaining a professional, visible and dependable security presence.",
-                "highlights": [
-                  "Supervises guards and daily site routines",
-                  "Checks shift handovers and assignment readiness",
-                  "Reinforces client procedures and service standards",
-                  "Escalates incidents through clear channels",
-                  "Provides practical support to frontline officers"
-                ]
-              },
-              {
-                "slug": "ananya-sharma",
-                "name": "Ananya Sharma",
-                "position": "Training Coordinator",
-                "image": "/people/women2.png",
-                "imageAlt": "Ananya Sharma, Training Coordinator",
-                "biography": "Ananya helps our security professionals build the knowledge and confidence they need to serve clients well. She coordinates onboarding and ongoing learning, with a focus on communication, awareness and responsible response. Ananya works with supervisors to identify useful coaching opportunities and keep training relevant to the environments our teams protect. She encourages a thoughtful, respectful approach to every interaction. Her work helps officers stay prepared, professional and ready to adapt to changing site needs.",
-                "highlights": [
-                  "Coordinates team onboarding and ongoing learning",
-                  "Supports role-specific site briefings",
-                  "Promotes clear communication and situational awareness",
-                  "Works with supervisors on coaching needs",
-                  "Encourages professional and respectful conduct"
-                ]
-              },
-              {
-                "slug": "vikram-yadav",
-                "name": "Vikram Yadav",
-                "position": "Team Leader",
-                "image": "/people/men3.png",
-                "imageAlt": "Vikram Yadav, Team Leader",
-                "biography": "Vikram leads security teams on the ground, setting a positive example through consistency and professionalism. He makes sure officers understand their responsibilities, communicate effectively and provide a welcoming presence for clients and visitors. During each shift, Vikram monitors site activity and supports his team as priorities change. He believes strong teamwork and clear handovers are essential to dependable protection. His practical leadership helps create a secure and well-managed environment for everyone on site.",
-                "highlights": [
-                  "Leads and supports officers during assigned shifts",
-                  "Sets clear expectations for site responsibilities",
-                  "Promotes teamwork and reliable handovers",
-                  "Monitors activity and raises concerns promptly",
-                  "Maintains a professional presence for guests and clients"
-                ]
-              },
-              {
-                "slug": "meena-rawat",
-                "name": "Meena Rawat",
-                "position": "Control Room Operator",
-                "image": "/people/women5.png",
-                "imageAlt": "Meena Rawat, Control Room Operator",
-                "biography": "Meena helps maintain awareness across monitored sites by handling information carefully and communicating it promptly. She supports control-room operations, keeps clear records and coordinates updates with field teams when attention is needed. Meena stays composed while managing multiple requests and follows established procedures to ensure important details are not missed. Her careful observation and dependable communication help strengthen our wider response. She is committed to providing attentive support around the clock.",
-                "highlights": [
-                  "Supports monitoring and control-room operations",
-                  "Records important updates with care and accuracy",
-                  "Coordinates timely communication with field teams",
-                  "Follows established escalation procedures",
-                  "Maintains calm focus across changing priorities"
-                ]
-              },
-              {
-                "slug": "suresh-verma",
-                "name": "Suresh Verma",
-                "position": "Mobile Patrol Officer",
-                "image": "/people/men4.png",
-                "imageAlt": "Suresh Verma, Mobile Patrol Officer",
-                "biography": "Suresh carries out mobile patrols and site checks to help clients maintain a visible and responsive security presence. He follows agreed routes, pays close attention to entrances and boundaries, and records relevant observations from each visit. When he identifies an issue, Suresh communicates it through the appropriate channels so it can be addressed quickly. He approaches every assignment with care, punctuality and respect for the property he protects. His work helps clients feel informed and supported between on-site shifts.",
-                "highlights": [
-                  "Completes scheduled mobile patrols and site checks",
-                  "Inspects agreed entrances, boundaries and key areas",
-                  "Documents visits and notable observations",
-                  "Reports concerns through clear escalation channels",
-                  "Provides a punctual and visible security presence"
-                ]
-              },
-              {
-                "slug": "deepika-mishra",
-                "name": "Deepika Mishra",
-                "position": "Client Relations Executive",
-                "image": "/people/women4.png",
-                "imageAlt": "Deepika Mishra, Client Relations Executive",
-                "biography": "Deepika is a key point of contact for clients, helping ensure questions and service requests receive thoughtful attention. She listens closely, shares updates with the appropriate teams and follows through so clients know what to expect. Her clear communication helps connect day-to-day site operations with each client's priorities. Deepika values responsive service and the trust built through consistent, respectful interactions. She works to make every client feel heard, informed and confident in their security support.",
-                "highlights": [
-                  "Builds clear and responsive client communication",
-                  "Coordinates service requests with internal teams",
-                  "Shares useful updates and follows through",
-                  "Listens to client feedback and changing priorities",
-                  "Strengthens long-term, trusted working relationships"
-                ]
               }
             ]
           }
@@ -2712,6 +2391,136 @@
                 ]
               }
             ]
+          }
+        }
+      },
+      "Welcome": {
+        "variants": {
+          "SecurityWelcome1": {
+            "badge": "Command Briefing",
+            "title": "Welcome to Shield Security Agency",
+            "subtitle": "Premier Security & Protection Services",
+            "director": {
+              "badge": "Command Center",
+              "role": "Director of Operations",
+              "name": "Col. R. K. Sharma (Retd.)",
+              "experience": "28+ Years of Military & Security Leadership",
+              "image": "/security/guard4.jpg",
+              "imageAlt": "Director of Security Operations - Shield Security"
+            },
+            "overview": {
+              "category": "Operational Excellence",
+              "titleNormal": "Precision Protection.",
+              "titleHighlight": "National Standards.",
+              "tag": "ISO Certified",
+              "subtitle": "Leading Security Management & High-Risk Asset Safety Partner across the nation.",
+              "features": [
+                {
+                  "title": "Integrated Defense & Surveillance",
+                  "desc": "Commercial hubs and critical infrastructure secured with defense-grade methodologies and 24/7 central monitoring.",
+                  "icon": "shield-check"
+                },
+                {
+                  "title": "Rigorously Screened & Vetted Personnel",
+                  "desc": "Our security guards, armed officers, and marshals undergo comprehensive background checks and strict field drills.",
+                  "icon": "eye"
+                },
+                {
+                  "title": "VIP Protocol & Corporate Transit",
+                  "desc": "Specialized Personal Security Officers (PSO) and armed transit escorts for business leaders and high-profile visits.",
+                  "icon": "building"
+                }
+              ]
+            },
+            "pillarsSection": {
+              "badge": "Core Principles",
+              "title": "Strategic Security Pillars",
+              "subtitle": "Engineered frameworks providing comprehensive risk mitigation and operational resilience.",
+              "pillars": [
+                {
+                  "title": "Elite Guarding & VIP Protection",
+                  "description": "Specialized Personal Security Officers (PSO), vehicle security, and unarmed guarding services tailored for high-stakes environments.",
+                  "icon": "shield-check"
+                },
+                {
+                  "title": "Strategic Intelligence",
+                  "description": "Professional security analysis and auditing services to identify vulnerabilities and ensure business continuity.",
+                  "icon": "eye"
+                },
+                {
+                  "title": "Event & Infrastructure Management",
+                  "description": "Comprehensive event security and facility management solutions designed for seamless, disruption-free operations.",
+                  "icon": "building"
+                }
+              ]
+            },
+            "skillsBand": {
+              "badge": "Human Capital Excellence",
+              "title": "Security Training & Skill Development",
+              "description": "Through continuous training programs we groom a disciplined, vetted workforce aligned with modern industrial security protocols across multiple regional hubs, ensuring uncompromised protection and reliable coverage.",
+              "buttonText": "Explore Training Center",
+              "buttonHref": "/skills"
+            }
+          }
+        }
+      },
+      "Skills": {
+        "variants": {
+          "SecuritySkills1": {
+            "paragraphs": [
+              "SHIELD GLOBAL Skills ventured into skills development to create long term impact, aligned to the manpower needs of the industrial clusters. Currently we are running 7 Centres across India (Noida, Greater Noida, Gurgaon, Bangalore, Delhi, Chennai). We offer 'Skills for Jobs' programmes linking every successful trainee to employment in organized sector.",
+              "We follow a standardized value chain which ensures the 'right candidate' is skilled for 'right job'. Today, we offer 74 programmes across NSQF levels, in 21 sectors including, Industrial Security Guard, Logistics, Courier, Tourism, Hospitality etc. Our target group includes a wide range of learners, especially those who are from 'Bottom of Pyramid' groups and have little or no exposure to skills and training. We also deliver the widest range of employability programmes for under graduates and post graduates that hone their work skills and provide them a combination of domain and life skills.",
+              "For us, skill development is core to youth engagement and poverty alleviation. We have created a model which is globally recognized for its impact and on improving the way people acquire skills and on how industry retains manpower."
+            ],
+            "model": {
+              "title": "OUR MODEL :-",
+              "trainerSelection": {
+                "title": "Selection of Trainers:-",
+                "desc": "The process is started by selecting the trainers. Trainers are selected by the Programme Managers after a rigorous review. Following are some attributes a trainer must possess to be selected:",
+                "points": [
+                  "Relevant educational and technical education background, as per industry standards.",
+                  "Relevant Industrial Experience.",
+                  "Facilitation skills."
+                ]
+              },
+              "training": {
+                "title": "Training:-",
+                "desc": "Once the trainers are selected, they undergo modules on facilitation skills and domain specific training which takes them through the training content and practical sessions."
+              },
+              "content": {
+                "title": "Content:-",
+                "desc": "The content and training material for each program is specifically designed. A systematic approach is taken to design the course content. Each course is backed up by standardized, reliable course material and classroom kits for the trainer."
+              },
+              "evaluation": {
+                "title": "Evaluation and Certification:-",
+                "desc": "Each participant in the programme is assessed and certified on the basis of their training skills and knowledge. On completion of the training, the Master Trainer sends a ToT report with certification results of each trainer. Based on the ToT report, certificates for MASTERY and domain training are issued to the trainers who have successfully completed the ToT."
+              }
+            },
+            "services": {
+              "title": "OUR SERVICES :-",
+              "skillsForJobTitle": "SKILLS FOR JOB :-",
+              "skillsForJobDesc": "SHIELD GLOBAL SKILLS helps to provide employment to unskilled youth in various sectors such as Security Agency, Hospitality, Courier etc. Employability of youth continues to be a major challenge given the industry in India each year over 5 million graduates and post-graduates are added to the Indian workforce. However, of these only 25 percent of technical graduates and 10-15 percent of other graduates are considered employable by industry. The situation is grim for those who are Not in Education, Employment and Training (NEET). Many of them don't get an entry point into the education system due to lack of basic qualification and end up being part of the unskilled, underemployed workforce, affecting competitiveness of industries.",
+              "contactBox": {
+                "heading": "Get more info on our Skills for Trainers practice contact:",
+                "desk": "Training Operations Desk",
+                "designation": "Head - Academic & Field Command",
+                "organization": "Shield Global Skills Academy",
+                "emails": [
+                  {
+                    "text": "training@securityguardagency.com",
+                    "href": "mailto:training@securityguardagency.com"
+                  },
+                  {
+                    "text": "skills@securityguardagency.com",
+                    "href": "mailto:skills@securityguardagency.com"
+                  }
+                ],
+                "phone": {
+                  "text": "+91-9876543210",
+                  "href": "tel:+919876543210"
+                }
+              }
+            }
           }
         }
       }
