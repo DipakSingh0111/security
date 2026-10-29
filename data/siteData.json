@@ -2523,6 +2523,90 @@
             }
           }
         }
+      },
+      "Stats": {
+        "variants": {
+          "SecurityStats1": {
+            "bgImage": "/security/guard5.jpg",
+            "badge": "OUR IMPACT",
+            "title": {
+              "normal": "Protection You Can",
+              "highlighted": "Count On"
+            },
+            "desc": "Trained personnel, verified deployments and round-the-clock coverage for sites that cannot afford a gap in security.",
+            "items": [
+              {
+                "id": 1,
+                "icon": "users",
+                "number": 500,
+                "suffix": "+",
+                "label": "Trained Guards"
+              },
+              {
+                "id": 2,
+                "icon": "building",
+                "number": 120,
+                "suffix": "+",
+                "label": "Sites Secured"
+              },
+              {
+                "id": 3,
+                "icon": "map-pin",
+                "number": 15,
+                "suffix": "+",
+                "label": "Cities Covered"
+              },
+              {
+                "id": 4,
+                "icon": "shield-check",
+                "number": 24,
+                "suffix": "/7",
+                "label": "Rapid Response"
+              }
+            ]
+          }
+        }
+      },
+      "Testimonials": {
+        "variants": {
+          "SecurityTestimonials1": {
+            "badge": "CLIENT STORIES",
+            "title": {
+              "normal": "What Our Clients",
+              "highlighted": "Say"
+            },
+            "desc": "Facilities, events and corporate teams rely on disciplined guarding and clear reporting from our deployed teams.",
+            "items": [
+              {
+                "id": 1,
+                "image": "/security/guard4.jpg",
+                "name": "Facility Manager",
+                "designation": "Operations Lead",
+                "company": "Corporate Campus",
+                "companyIcon": "building",
+                "quote": "The guards are punctual, properly briefed and easy to supervise. Shift handovers are documented, and we get a clear picture of every incident without chasing updates."
+              },
+              {
+                "id": 2,
+                "image": "/security/guard3.jpg",
+                "name": "Event Coordinator",
+                "designation": "Venue Operations",
+                "company": "Events & Exhibitions",
+                "companyIcon": "shield",
+                "quote": "Crowd movement and access control were planned with us before the event. The team stayed calm at the gates and kept guest entry moving without compromising checks."
+              },
+              {
+                "id": 3,
+                "image": "/security/guard11.jpg",
+                "name": "Site Supervisor",
+                "designation": "Plant Administration",
+                "company": "Industrial Unit",
+                "companyIcon": "building",
+                "quote": "Night coverage and visitor logs are consistent. When we needed extra manpower for a shutdown window, the additional guards arrived trained and in uniform."
+              }
+            ]
+          }
+        }
       }
     }
   }

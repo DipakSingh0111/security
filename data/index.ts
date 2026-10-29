@@ -90,6 +90,11 @@ export type SecurityRefundData = typeof sec.Legal.variants.SecurityRefund1;
 export type SecurityShippingData = typeof sec.Legal.variants.SecurityShipping1;
 export type SecurityWelcomeData = typeof sec.Welcome.variants.SecurityWelcome1;
 export type SecuritySkillsData = typeof sec.Skills.variants.SecuritySkills1;
+export type SecurityStatsData = typeof sec.Stats.variants.SecurityStats1;
+export type SecurityStatItem = SecurityStatsData["items"][number];
+export type SecurityTestimonialsData =
+  typeof sec.Testimonials.variants.SecurityTestimonials1;
+export type SecurityTestimonialItem = SecurityTestimonialsData["items"][number];
 
 /* Site object                                                         */
 
@@ -116,6 +121,8 @@ export const site = {
   shipping: sec.Legal.variants.SecurityShipping1,
   welcome: sec.Welcome.variants.SecurityWelcome1,
   skills: sec.Skills.variants.SecuritySkills1,
+  stats: sec.Stats.variants.SecurityStats1,
+  testimonial: sec.Testimonials.variants.SecurityTestimonials1,
 };
 
 /* Slug helper                                                         */
@@ -283,6 +290,14 @@ export function getWelcomeData(): SecurityWelcomeData {
 
 export function getSkillsData(): SecuritySkillsData {
   return sec.Skills.variants.SecuritySkills1;
+}
+
+export function getStats(): SecurityStatItem[] {
+  return sec.Stats.variants.SecurityStats1.items;
+}
+
+export function getTestimonials(): SecurityTestimonialItem[] {
+  return sec.Testimonials.variants.SecurityTestimonials1.items;
 }
 
 export const siteData = securityData;
