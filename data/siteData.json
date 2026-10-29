@@ -1795,84 +1795,24 @@
             "sectionHeading": "OUR CLIENTS",
             "clients": [
               {
-                "name": "Nova Aerospace Solutions",
-                "logo": "/clients/israel.jpg",
-                "subtitle": "Nova Aerospace Solutions"
-              },
-              {
-                "name": "Zenith Automotive Corporation",
-                "logo": "/clients/sunbean.jpg",
-                "subtitle": "Zenith Automotive Corporation"
-              },
-              {
-                "name": "Grand Heritage Luxury Resort",
-                "logo": "/clients/hotels-logo.jpg",
-                "subtitle": "Grand Heritage Luxury Resort"
-              },
-              {
-                "name": "National Petroleum Resources",
+                "name": "Hindustan Petroleum",
                 "logo": "/clients/Hinduatan.jpg",
-                "subtitle": "National Petroleum Resources"
+                "subtitle": "Hindustan Petroleum"
               },
               {
-                "name": "Pinnacle Commercial Real Estate",
-                "logo": "/clients/unnati.jpg",
-                "subtitle": "Pinnacle Commercial Real Estate"
-              },
-              {
-                "name": "Metropolitan Energy Corporation",
+                "name": "IndianOil",
                 "logo": "/clients/Indian.jpg",
-                "subtitle": "Metropolitan Energy Corporation"
+                "subtitle": "IndianOil"
               },
               {
-                "name": "Federal Commercial Banking Group",
+                "name": "ITC Hotels",
+                "logo": "/clients/hotels-logo.jpg",
+                "subtitle": "ITC Hotels"
+              },
+              {
+                "name": "Oriental Bank of Commerce",
                 "logo": "/clients/logo5.jpg",
-                "subtitle": "Commercial Banking Group"
-              },
-              {
-                "name": "Global Heritage Academy",
-                "logo": "/clients/logo6.jpg",
-                "subtitle": "Global Heritage Academy"
-              },
-              {
-                "name": "Delhivery",
-                "logo": "/clients/Delhivery.jpg",
-                "subtitle": "Delhivery"
-              },
-              {
-                "name": "Sajawat",
-                "logo": "/clients/sajawat.jpg",
-                "subtitle": "Sajawat"
-              },
-              {
-                "name": "Elbit Systems",
-                "logo": "/clients/logo1.jpg",
-                "subtitle": "Elbit Systems"
-              },
-              {
-                "name": "Delhi Development Authority",
-                "logo": "/clients/logo2.jpg",
-                "subtitle": "Delhi Development Authority"
-              },
-              {
-                "name": "C-DOT",
-                "logo": "/clients/logo3.jpg",
-                "subtitle": "C-DOT"
-              },
-              {
-                "name": "National Institute of Technology Agartala",
-                "logo": "/clients/logo4.jpg",
-                "subtitle": "National Institute of Technology Agartala"
-              },
-              {
-                "name": "Grand Columbus International School",
-                "logo": "/clients/logo7.jpg",
-                "subtitle": "Grand Columbus International School"
-              },
-              {
-                "name": "Rafael Advanced Defense Systems",
-                "logo": "/clients/logo8.jpg",
-                "subtitle": "Rafael Advanced Defense Systems"
+                "subtitle": "Oriental Bank of Commerce"
               }
             ]
           }
