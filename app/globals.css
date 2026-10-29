@@ -27,9 +27,11 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: clip;
   }
 
   body {
+    overflow-x: clip;
     background-color: var(--color-mist);
     color: var(--color-ink);
     font-family: var(--font-sans);

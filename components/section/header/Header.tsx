@@ -58,26 +58,26 @@ export default function SecurityHeader() {
     <>
       <div className="fixed inset-x-0 top-0 z-50">
         <div className="border-b border-brass/20 bg-field text-white">
-          <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 text-xs sm:text-[13px]">
-            <div className="flex items-center gap-4 sm:gap-6">
+          <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-3 py-2 text-xs sm:px-4 sm:text-[13px]">
+            <div className="flex min-w-0 items-center gap-4 sm:gap-6">
               <a
                 href={topbar.emailHref}
-                className="hidden items-center gap-2 border-r border-white/25 pr-5 text-sm transition-colors hover:text-brass sm:flex sm:text-base"
+                className="hidden min-w-0 items-center gap-2 border-r border-white/25 pr-5 text-sm transition-colors hover:text-brass md:flex md:text-base"
               >
-                <Mail size={18} className="text-brass" />
-                {topbar.email}
+                <Mail size={18} className="shrink-0 text-brass" />
+                <span className="truncate">{topbar.email}</span>
               </a>
               <a
                 href={topbar.phoneHref}
-                className="flex items-center gap-2 text-sm transition-colors hover:text-brass sm:text-base"
+                className="flex min-w-0 items-center gap-2 text-sm transition-colors hover:text-brass sm:text-base"
               >
-                <Phone size={18} className="text-brass" />
-                {topbar.phone}
+                <Phone size={18} className="shrink-0 text-brass" />
+                <span className="truncate">{topbar.phone}</span>
               </a>
             </div>
-            <div className="flex items-center gap-2 text-sm text-white/85 sm:text-base">
-              <Clock size={18} className="text-brass" />
-              <span>{topbar.supportText}</span>
+            <div className="hidden min-w-0 items-center gap-2 text-sm text-white/85 sm:flex sm:text-base">
+              <Clock size={18} className="shrink-0 text-brass" />
+              <span className="truncate">{topbar.supportText}</span>
             </div>
           </div>
         </div>
@@ -89,11 +89,11 @@ export default function SecurityHeader() {
               : "bg-transparent"
           }`}
         >
-          <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-3 px-3 sm:h-22 sm:px-4 lg:h-24">
+          <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-3 sm:h-20 sm:px-4 lg:h-24">
             <SecurityLogo isDark={solid} />
 
             <nav
-              className="hidden min-w-0 items-center justify-end lg:flex lg:flex-1"
+              className="hidden min-w-0 items-center justify-end xl:flex xl:flex-1"
               aria-label="Main navigation"
             >
               <ul
@@ -162,7 +162,7 @@ export default function SecurityHeader() {
                 onClick={() => setOpen(true)}
                 aria-label={header.mobileMenu.openLabel}
                 aria-expanded={open}
-                className={`flex h-10 w-10 items-center justify-center rounded-sm border transition-colors hover:bg-signal hover:text-white sm:h-11 sm:w-11 lg:hidden ${
+                className={`flex h-10 w-10 items-center justify-center rounded-sm border transition-colors hover:bg-signal hover:text-white sm:h-11 sm:w-11 xl:hidden ${
                   solid
                     ? "border-white/30 bg-white/10 text-white backdrop-blur"
                     : "border-ink/20 bg-ink/5 text-ink"
@@ -176,7 +176,7 @@ export default function SecurityHeader() {
       </div>
 
       <div
-        className={`fixed inset-0 z-[100] lg:hidden ${
+        className={`fixed inset-0 z-[100] xl:hidden ${
           open ? "pointer-events-auto" : "pointer-events-none"
         }`}
         aria-hidden={!open}

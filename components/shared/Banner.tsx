@@ -20,7 +20,7 @@ export default function Banner({
 }: BannerProps) {
   return (
     <ScrollReveal direction="up">
-      <section className="relative isolate mt-8 flex min-h-[300px] items-end overflow-hidden bg-ink sm:mt-10 sm:min-h-[340px] lg:min-h-[380px]">
+      <section className="relative isolate mt-[6.75rem] flex min-h-[240px] items-end overflow-hidden bg-ink sm:mt-[7.75rem] sm:min-h-[300px] lg:mt-[8.75rem] lg:min-h-[340px]">
         <Image
           src={image}
           alt=""
@@ -38,7 +38,7 @@ export default function Banner({
           className="pointer-events-none absolute bottom-0 left-0 h-1 w-full bg-gradient-to-r from-signal via-brass to-transparent"
         />
 
-        <div className="relative mx-auto w-full max-w-7xl px-4 py-14 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
+        <div className="relative mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 sm:py-14 lg:px-8 lg:py-16">
           {items.length > 0 && (
             <nav
               aria-label="Breadcrumb"
@@ -62,7 +62,7 @@ export default function Banner({
             </nav>
           )}
 
-          <h1 className="font-display max-w-3xl text-4xl font-bold uppercase leading-[1.05] text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.55)] sm:text-5xl lg:text-6xl">
+          <h1 className="font-display max-w-3xl text-balance text-3xl font-bold uppercase leading-[1.05] text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.55)] sm:text-4xl lg:text-5xl">
             {title}
           </h1>
         </div>

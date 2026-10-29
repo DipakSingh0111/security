@@ -46,7 +46,7 @@ export default function ServicesCatalog() {
                 </h3>
 
                 {/* Content: Left Photo with red frame + Right Paragraph */}
-                <div className="grid grid-cols-[140px_1fr] sm:grid-cols-[170px_1fr] gap-4 sm:gap-5 items-start">
+                <div className="grid grid-cols-[96px_1fr] items-start gap-3 sm:grid-cols-[150px_1fr] sm:gap-5">
                   {/* Photo with red border */}
                   <Link
                     href={href}

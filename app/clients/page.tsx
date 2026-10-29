@@ -26,7 +26,7 @@ export default function ClientsPage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-4">
             {clients.map((client) => {
               const isSvg = client.logo.endsWith(".svg");
               return (

@@ -13,7 +13,7 @@ export default function SecurityAbout({
 
   return (
     <ScrollReveal direction="none" duration={0.6}>
-      <section className="relative overflow-hidden bg-white py-16 md:py-24">
+      <section className="relative overflow-x-clip bg-white py-12 sm:py-16 md:py-24">
         {/* Subtle decorative background circles */}
         <div
           aria-hidden
@@ -24,19 +24,18 @@ export default function SecurityAbout({
           className="pointer-events-none absolute -right-10 top-28 hidden h-56 w-56 rounded-full border border-brass/20 lg:block"
         />
 
-        <div className="relative mx-auto grid max-w-7xl items-center gap-14 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
+        <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-4 sm:gap-14 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
           <ScrollReveal
             as="div"
-            direction="right"
-            mobileDirection="up"
-            className="order-2 lg:order-1"
+            direction="up"
+            className="order-2 min-w-0 lg:order-1"
           >
             <div className="inline-flex items-center gap-2 rounded-full border border-brass/30 bg-brass/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.22em] text-brass">
               <span className="h-1.5 w-1.5 rounded-full bg-signal" />
               {a.badge}
             </div>
 
-            <h2 className="font-display mt-4 text-3xl font-extrabold leading-[1.12] tracking-tight text-ink sm:text-4xl lg:text-[2.65rem]">
+            <h2 className="font-display mt-4 text-balance text-2xl font-extrabold leading-[1.12] tracking-tight text-ink sm:text-4xl lg:text-[2.65rem]">
               {a.title.normal}
               <span className="mt-1 block text-signal">{a.title.highlighted}</span>
             </h2>
@@ -68,19 +67,17 @@ export default function SecurityAbout({
 
           <ScrollReveal
             as="div"
-            direction="left"
-            mobileDirection="up"
-            className="relative order-1 lg:order-2"
+            direction="up"
+            className="relative order-1 min-w-0 lg:order-2"
           >
-            <div className="relative mx-auto max-w-lg lg:max-w-none">
-              {/* L-frame accent */}
+            <div className="relative mx-auto w-full max-w-lg px-3 py-3 lg:max-w-none">
               <div
                 aria-hidden
-                className="absolute -left-3 -top-3 h-28 w-28 rounded-tl-xl border-l-[5px] border-t-[5px] border-signal sm:-left-5 sm:-top-5"
+                className="absolute left-0 top-0 h-20 w-20 rounded-tl-xl border-l-[5px] border-t-[5px] border-signal sm:h-28 sm:w-28"
               />
               <div
                 aria-hidden
-                className="absolute -bottom-3 -right-3 h-28 w-28 rounded-br-xl border-b-[5px] border-r-[5px] border-brass sm:-bottom-5 sm:-right-5"
+                className="absolute bottom-0 right-0 h-20 w-20 rounded-br-xl border-b-[5px] border-r-[5px] border-brass sm:h-28 sm:w-28"
               />
 
               <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-ink shadow-2xl sm:aspect-[5/6]">

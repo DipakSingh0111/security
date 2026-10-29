@@ -118,14 +118,12 @@ export default function ServiceDetail({
                     direction="up"
                     index={index}
                     staggerChildren={0.08}
-                    className={`flex min-w-0 flex-col items-center gap-2 px-2 text-center ${
-                      index > 0 ? "border-l border-slate-200" : ""
-                    }`}
+                    className="flex min-w-0 flex-col items-center gap-2 px-1 text-center sm:border-l sm:border-slate-200 sm:px-2 sm:first:border-l-0"
                   >
-                    <span className="flex h-14  w-14 items-center justify-center rounded-full bg-mist text-brass sm:h-20 sm:w-20">
-                      <FeatureIcon name={benefit.icon} size={40} />
+                    <span className="flex h-12 w-12 items-center justify-center rounded-full bg-mist text-brass sm:h-16 sm:w-16">
+                      <FeatureIcon name={benefit.icon} size={26} />
                     </span>
-                    <span className="max-w-28 text-base font-bold leading-snug text-ink sm:text-lg">
+                    <span className="max-w-[7.5rem] text-sm font-bold leading-snug text-ink sm:max-w-28 sm:text-base">
                       {benefit.label}
                     </span>
                   </ScrollReveal>

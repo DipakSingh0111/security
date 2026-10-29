@@ -28,7 +28,7 @@ export default function SecurityBanner() {
   return (
     <ScrollReveal direction="none" duration={0.6}>
       <section
-        className="relative isolate h-screen min-h-[600px] w-full overflow-hidden bg-ink text-white"
+        className="relative isolate h-[100svh] min-h-[34rem] w-full overflow-hidden bg-ink text-white"
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
         onTouchStart={(e) => {
@@ -68,15 +68,14 @@ export default function SecurityBanner() {
                 <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/30 via-40% to-transparent pointer-events-none" />
 
                 {/* Aesthetic Content - Left-aligned Title */}
-                <div className="relative z-10 flex h-full w-full items-center px-6 pt-20 sm:px-12 md:pt-24 lg:px-20">
+                <div className="relative z-10 flex h-full w-full items-center px-4 pb-16 pt-28 sm:px-16 sm:pt-32 lg:px-24">
                   <div className="mx-auto w-full max-w-7xl">
                     <div className="max-w-2xl text-left">
-                      {/* Simple & Elegant Title */}
-                      <h1 className="font-display text-4xl font-extrabold leading-tight tracking-tight text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.85)] sm:text-6xl md:text-7xl">
+                      <h1 className="font-display text-3xl font-extrabold leading-tight tracking-tight text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.85)] sm:text-5xl md:text-6xl lg:text-7xl">
                         <span>{slide.title.normal}</span>{" "}
                         <span className="text-brass">{slide.title.highlighted}</span>
                         {slide.title.postTitle && (
-                          <span className="mt-4 block text-lg font-normal tracking-wide text-white/90 drop-shadow-md sm:text-2xl md:text-3xl">
+                          <span className="mt-3 block text-base font-normal tracking-wide text-white/90 drop-shadow-md sm:mt-4 sm:text-2xl md:text-3xl">
                             {slide.title.postTitle}
                           </span>
                         )}
@@ -96,7 +95,7 @@ export default function SecurityBanner() {
               type="button"
               onClick={() => go(active - 1)}
               aria-label="Previous slide"
-              className="absolute left-4 top-1/2 z-20 -translate-y-1/2 flex h-11 w-11 cursor-pointer items-center justify-center rounded-full border border-white/30 bg-black/60 text-white transition-all hover:scale-110 hover:border-brass hover:bg-brass hover:text-ink sm:left-8"
+              className="absolute left-4 top-1/2 z-20 hidden h-11 w-11 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border border-white/30 bg-black/60 text-white transition-all hover:scale-110 hover:border-brass hover:bg-brass hover:text-ink md:flex sm:left-8"
             >
               <LuChevronLeft size={22} />
             </button>
@@ -104,7 +103,7 @@ export default function SecurityBanner() {
               type="button"
               onClick={() => go(active + 1)}
               aria-label="Next slide"
-              className="absolute right-4 top-1/2 z-20 -translate-y-1/2 flex h-11 w-11 cursor-pointer items-center justify-center rounded-full border border-white/30 bg-black/60 text-white transition-all hover:scale-110 hover:border-brass hover:bg-brass hover:text-ink sm:right-8"
+              className="absolute right-4 top-1/2 z-20 hidden h-11 w-11 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border border-white/30 bg-black/60 text-white transition-all hover:scale-110 hover:border-brass hover:bg-brass hover:text-ink md:flex sm:right-8"
             >
               <LuChevronRight size={22} />
             </button>

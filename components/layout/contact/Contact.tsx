@@ -141,13 +141,13 @@ export default function ContactPage() {
           {/* Bottom Row: Google Map & Message Form */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
             {/* Left Column: Google Map Embed */}
-            <ScrollReveal as="div" direction="right" mobileDirection="up" className="lg:col-span-6 overflow-hidden rounded-2xl shadow-[0_8px_30px_rgba(14,22,18,0.08)] border border-slate-100 min-h-[420px]">
+            <ScrollReveal as="div" direction="right" mobileDirection="up" className="min-h-[260px] overflow-hidden rounded-2xl border border-slate-100 shadow-[0_8px_30px_rgba(14,22,18,0.08)] sm:min-h-[420px] lg:col-span-6">
               <iframe
                 title={c.form.mapTitle}
                 src={c.mapEmbedUrl}
                 width="100%"
                 height="100%"
-                style={{ border: 0, minHeight: "420px" }}
+                style={{ border: 0, minHeight: "260px" }}
                 allowFullScreen={false}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

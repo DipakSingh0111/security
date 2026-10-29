@@ -43,7 +43,7 @@ export default function CareerFormSection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-14">
           <div className="lg:col-span-6">
-            <div className="relative flex min-h-[460px] flex-col justify-between overflow-hidden rounded-3xl border border-brass/20 bg-gradient-to-b from-field via-ink-soft to-ink p-8 shadow-2xl sm:p-12">
+            <div className="relative flex min-h-[320px] flex-col justify-between overflow-hidden rounded-3xl border border-brass/20 bg-gradient-to-b from-field via-ink-soft to-ink p-5 shadow-2xl sm:min-h-[460px] sm:p-12">
               <div className="pointer-events-none absolute -top-20 -right-20 h-64 w-64 rounded-full bg-white/25 blur-3xl" />
               <div className="pointer-events-none absolute top-1/2 -left-20 h-48 w-48 rounded-full bg-brass/15 blur-2xl" />
 
@@ -56,7 +56,7 @@ export default function CareerFormSection() {
 
                   <div className="flex items-center justify-between gap-4 rounded-xl border-2 border-white/90 p-4 sm:p-5">
                     <div>
-                      <span className="block font-sans text-2xl font-black tracking-widest text-white uppercase drop-shadow sm:text-4xl">
+                      <span className="block font-sans text-xl font-black tracking-widest text-white uppercase drop-shadow sm:text-4xl">
                         {roadSign.title}
                       </span>
                       <span className="text-[11px] font-bold tracking-wider text-brass uppercase sm:text-xs">
@@ -75,7 +75,7 @@ export default function CareerFormSection() {
           </div>
 
           <div className="lg:col-span-6">
-            <div className="relative rounded-3xl border border-gray-100 bg-white p-8 shadow-[0_20px_50px_rgba(0,0,0,0.08)] sm:p-10">
+            <div className="relative rounded-3xl border border-gray-100 bg-white p-5 shadow-[0_20px_50px_rgba(0,0,0,0.08)] sm:p-10">
               <div className="mb-8">
                 <div className="flex items-center justify-between">
                   <div>

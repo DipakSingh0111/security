@@ -95,7 +95,7 @@ export default function EnquiryPage() {
                   <h4 className="mb-3 text-xs font-bold uppercase tracking-wider text-gray-400">
                     {sections[0].title}
                   </h4>
-                  <div className="grid gap-4 sm:grid-cols-3">
+                  <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                     <div className="relative">
                       <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3.5 text-gray-400">
                         <User size={16} />
@@ -186,7 +186,7 @@ export default function EnquiryPage() {
                   <h4 className="mb-3 text-xs font-bold uppercase tracking-wider text-gray-400">
                     {sections[2].title}
                   </h4>
-                  <div className="grid gap-4 sm:grid-cols-3">
+                  <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                     <div>
                       <select
                         required

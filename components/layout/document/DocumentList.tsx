@@ -36,7 +36,7 @@ export default function DocumentList({
   };
 
   return (
-    <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:gap-8 lg:grid-cols-4">
+    <div className="grid grid-cols-1 gap-5 min-[420px]:grid-cols-2 sm:grid-cols-3 sm:gap-6 md:gap-8 lg:grid-cols-4">
       {documents.map((doc, index) => {
         const isFirstTwo = index === 0 || index === 1;
         const isLoading = loadingDocId === doc.id;
@@ -45,7 +45,7 @@ export default function DocumentList({
         const cardContent = (
           <>
             {/* PDF Adobe Icon Frame */}
-            <div className="relative my-4 flex h-28 w-28 items-center justify-center rounded-2xl border border-gray-100 bg-gradient-to-b from-gray-50 to-gray-100 p-4 shadow-inner transition-transform duration-300 group-hover:scale-105">
+            <div className="relative my-4 flex h-24 w-24 items-center justify-center rounded-2xl border border-gray-100 bg-gradient-to-b from-gray-50 to-gray-100 p-4 shadow-inner transition-transform duration-300 group-hover:scale-105 sm:h-28 sm:w-28">
               {isLoading ? (
                 <div className="flex flex-col items-center justify-center gap-2">
                   <LuLoader

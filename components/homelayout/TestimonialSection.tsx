@@ -237,7 +237,7 @@ export default function SecurityTestimonial() {
                 type="button"
                 onClick={() => go(active - 1)}
                 aria-label="Previous testimonial"
-                className="absolute -left-15 top-1/2 z-20 hidden h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white text-ink shadow-lg transition-all duration-300 hover:bg-brass md:flex"
+                className="absolute left-2 top-1/2 z-20 hidden h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-white text-ink shadow-lg transition-all duration-300 hover:bg-brass md:flex lg:-left-6"
               >
                 <LuArrowLeft size={20} />
               </button>
@@ -246,7 +246,7 @@ export default function SecurityTestimonial() {
                 type="button"
                 onClick={() => go(active + 1)}
                 aria-label="Next testimonial"
-                className="absolute -right-15 top-1/2 z-20 hidden h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-field text-white shadow-lg transition-all duration-300 hover:bg-brass hover:text-ink md:flex"
+                className="absolute right-2 top-1/2 z-20 hidden h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-field text-white shadow-lg transition-all duration-300 hover:bg-brass hover:text-ink md:flex lg:-right-6"
               >
                 <LuArrowRight size={20} />
               </button>

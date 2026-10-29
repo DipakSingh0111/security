@@ -28,9 +28,9 @@ function getDesktopLayout() {
   return window.matchMedia(DESKTOP_MEDIA).matches;
 }
 
-/** Server render assumes the widest layout so desktop never flashes. */
+/** Server render uses the stacked mobile motion so narrow screens are not shifted sideways. */
 function getServerDesktopLayout() {
-  return true;
+  return false;
 }
 
 function useIsDesktopLayout() {
@@ -67,42 +67,44 @@ function buildVariants(
     return { hidden: { opacity: 0 }, visible: { opacity: 1 } };
   }
 
+  const visible = { opacity: 1, x: 0, y: 0, scale: 1 };
+
   switch (direction) {
     case "down":
       return {
-        hidden: { opacity: 0, y: -distance },
-        visible: { opacity: 1, y: 0 },
+        hidden: { opacity: 0, x: 0, y: -distance },
+        visible,
       };
 
     case "left":
       return {
-        hidden: { opacity: 0, x: distance },
-        visible: { opacity: 1, x: 0 },
+        hidden: { opacity: 0, x: distance, y: 0 },
+        visible,
       };
 
     case "right":
       return {
-        hidden: { opacity: 0, x: -distance },
-        visible: { opacity: 1, x: 0 },
+        hidden: { opacity: 0, x: -distance, y: 0 },
+        visible,
       };
 
     case "scale":
       return {
-        hidden: { opacity: 0, scale: 0.85 },
-        visible: { opacity: 1, scale: 1 },
+        hidden: { opacity: 0, scale: 0.85, x: 0, y: 0 },
+        visible,
       };
 
     case "none":
       return {
-        hidden: { opacity: 0 },
-        visible: { opacity: 1 },
+        hidden: { opacity: 0, x: 0, y: 0 },
+        visible,
       };
 
     case "up":
     default:
       return {
-        hidden: { opacity: 0, y: distance },
-        visible: { opacity: 1, y: 0 },
+        hidden: { opacity: 0, x: 0, y: distance },
+        visible,
       };
   }
 }

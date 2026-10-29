@@ -179,7 +179,7 @@ export default function SecurityServices({
                 onClick={() => goTo(page - 1)}
                 disabled={page === 0}
                 aria-label="Previous page"
-                className="inline-flex h-11 w-11 items-center justify-center border border-white/20 text-white transition-colors hover:border-brass hover:bg-brass hover:text-ink disabled:cursor-not-allowed disabled:opacity-40"
+                className="inline-flex h-11 w-11 items-center justify-center border border-ink/15 text-ink transition-colors hover:border-brass hover:bg-brass disabled:cursor-not-allowed disabled:opacity-40"
               >
                 <LuArrowLeft size={18} />
               </button>
@@ -194,7 +194,7 @@ export default function SecurityServices({
                   className={`inline-flex h-11 min-w-11 items-center justify-center px-3 text-sm font-bold transition-colors ${
                     page === i
                       ? "bg-brass text-ink"
-                      : "border border-white/20 text-white hover:border-brass hover:text-brass"
+                      : "border border-ink/15 text-ink hover:border-brass hover:text-brass"
                   }`}
                 >
                   {i + 1}
@@ -206,7 +206,7 @@ export default function SecurityServices({
                 onClick={() => goTo(page + 1)}
                 disabled={page >= totalPages - 1}
                 aria-label="Next page"
-                className="inline-flex h-11 w-11 items-center justify-center border border-white/20 text-white transition-colors hover:border-brass hover:bg-brass hover:text-ink disabled:cursor-not-allowed disabled:opacity-40"
+                className="inline-flex h-11 w-11 items-center justify-center border border-ink/15 text-ink transition-colors hover:border-brass hover:bg-brass disabled:cursor-not-allowed disabled:opacity-40"
               >
                 <LuArrowRight size={18} />
               </button>

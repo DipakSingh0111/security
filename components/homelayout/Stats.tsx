@@ -135,7 +135,7 @@ export default function SecurityStats() {
               direction="none"
               index={i}
               staggerChildren={0.12}
-              className="relative rounded-xl border border-white/25 bg-[#0c3052]/80 px-3 py-4 text-center backdrop-blur-md transition-transform duration-300 hover:-translate-y-2 sm:px-12"
+              className="relative rounded-xl border border-white/25 bg-[#0c3052]/80 px-2 py-4 text-center backdrop-blur-md transition-transform duration-300 hover:-translate-y-2 sm:px-4 lg:px-6"
             >
               {/* Centered Icon */}
               <div
