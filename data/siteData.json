@@ -207,7 +207,7 @@
           "SecurityAbout1": {
             "banner": {
               "title": "About Us",
-              "image": "/page-banner.jpg",
+              "image": "/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -275,7 +275,7 @@
           "SecurityServices1": {
             "banner": {
               "title": "Our Services",
-              "image": "/page-banner.jpg",
+              "image": "/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -288,7 +288,7 @@
             },
             "detailBanner": {
               "title": "Service Detail",
-              "image": "/page-banner.jpg",
+              "image": "/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -515,7 +515,7 @@
                   "highlighted": "Services"
                 },
                 "description": "Our agency specializes in premiere site & event security for a host of industries and applications. We guarantee the availability of a uniformed security guard either unarmed, armed or even an off duty officer anytime of the day 24/7. We make sure to go above and to make sure you get the right person for the right job.",
-                "heroImage": "/security/guard6.jpg",
+                "heroImage": "/security/guard4.jpg",
                 "heroImageAlt": "Unarmed Guard Services",
                 "benefits": [
                   {
@@ -535,7 +535,7 @@
                     "label": "Reliable Coverage"
                   }
                 ],
-                "overviewImage": "/security/guard6.jpg",
+                "overviewImage": "/security/guard4.jpg",
                 "overviewImageAlt": "Unarmed Guard Services overview",
                 "overviewTitle": "Premiere Site & Event Guarding",
                 "overviewDescription": "Our agency specializes in premiere site & event security for a host of industries and applications. We guarantee the availability of a uniformed security guard either unarmed, armed or even an off duty officer anytime of the day 24/7. We make sure to go above and to make sure you get the right person for the right job.",
@@ -579,7 +579,7 @@
                   "highlighted": "Officer Services"
                 },
                 "description": "Our mission is to deliver reliable VIP protection anywhere around the globe at a moment's notice. Our services range from providing one-time personal protection to developing long-term comprehensive personnel and asset protection. Our Personal Security Services offer a variety of solutions for protecting your employees, property and assets. Our personal security solutions are tailored.",
-                "heroImage": "/security/guard8.jpg",
+                "heroImage": "/security/guard3.jpg",
                 "heroImageAlt": "Personal Security Officer Services",
                 "benefits": [
                   {
@@ -599,7 +599,7 @@
                     "label": "Reliable Coverage"
                   }
                 ],
-                "overviewImage": "/security/guard8.jpg",
+                "overviewImage": "/security/guard3.jpg",
                 "overviewImageAlt": "Personal Security Officer Services overview",
                 "overviewTitle": "Reliable VIP & Close Protection",
                 "overviewDescription": "Our mission is to deliver reliable VIP protection anywhere around the globe at a moment's notice. Our services range from providing one-time personal protection to developing long-term comprehensive personnel and asset protection. Our Personal Security Services offer a variety of solutions for protecting your employees, property and assets. Our personal security solutions are tailored.",
@@ -643,7 +643,7 @@
                   "highlighted": "Services"
                 },
                 "description": "Being one of the reputed organizations of the industry, we are offering an exclusive range of Security Services to our precious clients. These offered services are rendered using the modern technology under the supervision of skilled personnel. Arm Marshal Service is one of our modern technology service. These all services are useful for various places such as hospital, schools, industrial area...etc.",
-                "heroImage": "/security/guard9.jpg",
+                "heroImage": "/security/guard10.jpg",
                 "heroImageAlt": "Armed Marshal Services",
                 "benefits": [
                   {
@@ -663,7 +663,7 @@
                     "label": "Reliable Coverage"
                   }
                 ],
-                "overviewImage": "/security/guard9.jpg",
+                "overviewImage": "/security/guard10.jpg",
                 "overviewImageAlt": "Armed Marshal Services overview",
                 "overviewTitle": "Armed Marshal Deployment",
                 "overviewDescription": "Being one of the reputed organizations of the industry, we are offering an exclusive range of Security Services to our precious clients. These offered services are rendered using the modern technology under the supervision of skilled personnel. Arm Marshal Service is one of our modern technology service. These all services are useful for various places such as hospital, schools, industrial area...etc.",
@@ -707,7 +707,7 @@
                   "highlighted": "Services"
                 },
                 "description": "Backed by vast industrial experience we are engaged in offering a qualitative range of Vehicle Security Services. These services are offered for vehicle protection. Our agency offers professional vehicle services with extensively trained security officers and has a distinguished reputation, so that our valued clients can avail these services in unique options as per their requirement.",
-                "heroImage": "/security/guard7.jpg",
+                "heroImage": "/security/guard11.jpg",
                 "heroImageAlt": "Vehicle Security Services",
                 "benefits": [
                   {
@@ -727,7 +727,7 @@
                     "label": "Reliable Coverage"
                   }
                 ],
-                "overviewImage": "/security/guard7.jpg",
+                "overviewImage": "/security/guard11.jpg",
                 "overviewImageAlt": "Vehicle Security Services overview",
                 "overviewTitle": "Professional Vehicle Protection",
                 "overviewDescription": "Backed by vast industrial experience we are engaged in offering a qualitative range of Vehicle Security Services. These services are offered for vehicle protection. Our agency offers professional vehicle services with extensively trained security officers and has a distinguished reputation, so that our valued clients can avail these services in unique options as per their requirement.",
@@ -1027,7 +1027,7 @@
                   "highlighted": "Management"
                 },
                 "description": "Our agency delivers facility management solutions designed for seamless, disruption-free operations. We support infrastructure and workplace environments with disciplined manpower and processes so clients can focus on their core business with peace of mind.",
-                "heroImage": "/security/guard2.jpg",
+                "heroImage": "/security/guard11.jpg",
                 "heroImageAlt": "Facilities Management",
                 "benefits": [
                   {
@@ -1047,7 +1047,7 @@
                     "label": "Reliable Coverage"
                   }
                 ],
-                "overviewImage": "/security/guard2.jpg",
+                "overviewImage": "/security/guard11.jpg",
                 "overviewImageAlt": "Facilities Management overview",
                 "overviewTitle": "Facility & Infrastructure Support",
                 "overviewDescription": "Our agency delivers facility management solutions designed for seamless, disruption-free operations. We support infrastructure and workplace environments with disciplined manpower and processes so clients can focus on their core business with peace of mind.",
@@ -1091,7 +1091,7 @@
                   "highlighted": "Solution"
                 },
                 "description": "Through trained and verified personnel, our agency provides manpower solutions aligned with industrial and organisational needs. We help clients deploy the right workforce for security and support roles with professional conduct and dependable coverage.",
-                "heroImage": "/security/guard1.jpg",
+                "heroImage": "/security/guard5.jpg",
                 "heroImageAlt": "Manpower Solution",
                 "benefits": [
                   {
@@ -1111,7 +1111,7 @@
                     "label": "Reliable Coverage"
                   }
                 ],
-                "overviewImage": "/security/guard1.jpg",
+                "overviewImage": "/security/guard5.jpg",
                 "overviewImageAlt": "Manpower Solution overview",
                 "overviewTitle": "Professional Manpower Deployment",
                 "overviewDescription": "Through trained and verified personnel, our agency provides manpower solutions aligned with industrial and organisational needs. We help clients deploy the right workforce for security and support roles with professional conduct and dependable coverage.",
@@ -1157,7 +1157,7 @@
           "SecurityIndustries1": {
             "banner": {
               "title": "Industries",
-              "image": "/page-banner.jpg",
+              "image": "/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -1533,7 +1533,7 @@
           "SecurityGallery1": {
             "banner": {
               "title": "Gallery",
-              "image": "/page-banner.jpg",
+              "image": "/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -1585,7 +1585,7 @@
           "SecurityFAQ1": {
             "banner": {
               "title": "Faq",
-              "image": "/page-banner.jpg",
+              "image": "/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -1653,7 +1653,7 @@
           "SecurityContact1": {
             "banner": {
               "title": "Contact Us",
-              "image": "/page-banner.jpg",
+              "image": "/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -1769,7 +1769,7 @@
             },
             "banner": {
               "title": "Our Clients",
-              "image": "/page-banner.jpg",
+              "image": "/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -1835,7 +1835,7 @@
             },
             "banner": {
               "title": "Document",
-              "image": "/page-banner.jpg",
+              "image": "/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -1921,7 +1921,7 @@
             },
             "banner": {
               "title": "Enquiry Form",
-              "image": "/page-banner.jpg",
+              "image": "/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -2079,7 +2079,7 @@
             },
             "banner": {
               "title": "Careers at Shield Security",
-              "image": "/page-banner.jpg",
+              "image": "/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -2156,7 +2156,7 @@
             },
             "banner": {
               "title": "Privacy Policy",
-              "image": "/page-banner.jpg",
+              "image": "/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -2196,7 +2196,7 @@
             },
             "banner": {
               "title": "Terms and Conditions",
-              "image": "/page-banner.jpg",
+              "image": "/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -2249,7 +2249,7 @@
             },
             "banner": {
               "title": "Refund and Cancellation Policy",
-              "image": "/page-banner.jpg",
+              "image": "/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -2321,7 +2321,7 @@
             },
             "banner": {
               "title": "Shipping and Delivery Policy",
-              "image": "/page-banner.jpg",
+              "image": "/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",

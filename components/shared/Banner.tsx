@@ -7,35 +7,28 @@ export interface BannerPageItem {
   href?: string;
 }
 
+const PAGE_BANNER_IMAGE = "/PageBanner.jpg";
+
 export interface BannerProps {
   title: string;
-  image: string;
+  image?: string;
   items?: BannerPageItem[];
-  compact?: boolean;
 }
 
 export default function Banner({
   title,
-  image,
   items = [],
-  compact = false,
 }: BannerProps) {
   return (
     <ScrollReveal direction="up">
-      <section
-        className={`relative isolate flex items-end overflow-hidden bg-ink ${
-          compact
-            ? "mt-8 min-h-[280px] sm:mt-10 sm:min-h-[320px]"
-            : "mt-8 min-h-[340px] sm:mt-10 sm:min-h-[400px] lg:min-h-[440px]"
-        }`}
-      >
+      <section className="relative isolate mt-8 flex min-h-[300px] items-end overflow-hidden bg-ink sm:mt-10 sm:min-h-[340px] lg:min-h-[380px]">
         <Image
-          src={image}
-          alt={title}
+          src={PAGE_BANNER_IMAGE}
+          alt=""
           fill
           priority
           sizes="100vw"
-          className="object-cover object-[center_45%]"
+          className="object-cover object-center"
         />
 
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-ink via-ink/75 to-transparent" />
@@ -70,13 +63,7 @@ export default function Banner({
             </nav>
           )}
 
-          <h1
-            className={`font-display max-w-3xl font-bold uppercase leading-[1.05] text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.55)] ${
-              compact
-                ? "text-3xl sm:text-4xl lg:text-[2.6rem]"
-                : "text-4xl sm:text-5xl lg:text-6xl"
-            }`}
-          >
+          <h1 className="font-display max-w-3xl text-4xl font-bold uppercase leading-[1.05] text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.55)] sm:text-5xl lg:text-6xl">
             {title}
           </h1>
         </div>

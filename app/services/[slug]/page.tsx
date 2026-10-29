@@ -45,10 +45,13 @@ async function ServiceDetailContent({
   return (
     <>
       <PageBanner
-        title={banner.title}
+        title={detail.title.normal + " " + detail.title.highlighted}
         image={banner.image}
-        items={banner.items}
-        compact
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Services", href: "/services" },
+          { label: detail.title.normal + " " + detail.title.highlighted },
+        ]}
       />
       <ServiceDetail detail={detail} />
       <SecurityCta />

@@ -18,7 +18,7 @@ export default function SkillsPage() {
     <>
       <PageBanner
         title="SHIELD SKILLS"
-        image="/page-banner.jpg"
+        image="/PageBanner.jpg"
         items={bannerItems}
       />
       <ShieldSkillsContent />
