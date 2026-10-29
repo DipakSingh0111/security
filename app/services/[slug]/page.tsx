@@ -41,17 +41,14 @@ async function ServiceDetailContent({
   }
 
   const banner = site.services.detailBanner;
+  const serviceTitle = `${detail.title.normal} ${detail.title.highlighted}`;
 
   return (
     <>
       <PageBanner
-        title={detail.title.normal + " " + detail.title.highlighted}
+        title={serviceTitle}
         image={banner.image}
-        items={[
-          { label: "Home", href: "/" },
-          { label: "Services", href: "/services" },
-          { label: detail.title.normal + " " + detail.title.highlighted },
-        ]}
+        items={[...banner.items, { label: serviceTitle }]}
       />
       <ServiceDetail detail={detail} />
       <SecurityCta />

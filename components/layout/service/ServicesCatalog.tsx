@@ -2,33 +2,16 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { siteData } from "@/data";
+import { site } from "@/data";
 import ScrollReveal from "@/components/shared/ScrollReveal";
 
 export default function ServicesCatalog() {
-  const allServices =
-    siteData.SecurityIndustries.sections.Services.variants.SecurityServices1
-      .services;
+  const catalog = site.services;
+  const allServices = catalog.services;
 
-  // The exact 8 services shown in the screenshot in paired left/right order:
-  // Row 1: Armed Guard Services | Vehicle Security Services
-  // Row 2: Unarmed Guard Services | Events Security Services
-  // Row 3: Personal Security Officer Services | Security Analysis Services
-  // Row 4: Armed Marshal Services | Security Audit Services
-  const orderedSlugs = [
-    "armed-guard",
-    "vehicle-security",
-    "unarmed-guard",
-    "events-security",
-    "personal-security-officer",
-    "security-analysis",
-    "armed-marshal",
-    "security-audit",
-  ];
-
-  const services = orderedSlugs
-    .map((slug) => allServices.find((s) => s.slug === slug))
-    .filter(Boolean) as typeof allServices;
+  const services = catalog.catalogSlugs
+    .map((slug) => allServices.find((service) => service.slug === slug))
+    .filter((service) => service !== undefined);
 
   return (
     <section className="bg-white py-12 md:py-16">
@@ -36,7 +19,7 @@ export default function ServicesCatalog() {
         {/* Title */}
         <div className="mb-10">
           <h2 className="font-display text-2xl font-bold tracking-tight text-ink sm:text-3xl md:text-4xl">
-            Our Services
+            {catalog.catalogHeading}
           </h2>
           <div className="mt-2 h-0.5 w-16 bg-signal" />
         </div>

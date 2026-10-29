@@ -47,9 +47,10 @@
               "siteName": "SHIELD SECURITY",
               "tagline": "PREMIER SECURITY & GUARD AGENCY",
               "logo": {
-                "light": "/logo-image.png",
-                "normal": "/logo-image.png",
-                "alt": "Shield Security & Guard Agency"
+                "light": "/security/logo-image.png",
+                "normal": "/security/logo-image.png",
+                "alt": "Shield Security - Premier Guard Force",
+                "ariaLabel": "Shield Security - Home"
               }
             },
             "meta": {
@@ -168,7 +169,7 @@
                   "postTitle": "Professional Guarding Solutions"
                 },
                 "image": {
-                  "src": "/HeroBanner_01.jpg",
+                  "src": "/security/HeroBanner_01.jpg",
                   "alt": "Shield Security Agency"
                 }
               },
@@ -181,7 +182,7 @@
                   "postTitle": "24/7 Rapid Response"
                 },
                 "image": {
-                  "src": "/HeroBanner_01.jpg",
+                  "src": "/security/HeroBanner.jpg",
                   "alt": "Professional armed guards"
                 }
               },
@@ -194,7 +195,7 @@
                   "postTitle": "Your Safety, Our Commitment"
                 },
                 "image": {
-                  "src": "/HeroBanner_01.jpg",
+                  "src": "/security/HeroBanner_01.jpg",
                   "alt": "VIP Protection Services"
                 }
               }
@@ -207,7 +208,7 @@
           "SecurityAbout1": {
             "banner": {
               "title": "About Us",
-              "image": "/PageBanner.jpg",
+              "image": "/security/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -229,7 +230,7 @@
               "Under experienced operational leadership and defense-trained instructors, we adhere to strict quality benchmarks, regulatory standards, and transparent client reporting."
             ],
             "image": {
-              "src": "/security/guard5.jpg",
+              "src": "/security/page-banner.jpg",
               "alt": "Professional security personnel on duty"
             },
             "features": [
@@ -275,7 +276,7 @@
           "SecurityServices1": {
             "banner": {
               "title": "Our Services",
-              "image": "/PageBanner.jpg",
+              "image": "/security/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -288,14 +289,14 @@
             },
             "detailBanner": {
               "title": "Service Detail",
-              "image": "/PageBanner.jpg",
+              "image": "/security/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
                   "href": "/"
                 },
                 {
-                  "label": "Service Detail",
+                  "label": "Services",
                   "href": "/services"
                 }
               ]
@@ -309,6 +310,17 @@
             "desc": "We provide comprehensive guarding, VIP protection, vehicle and event security, analysis, audits, consultancy, facilities management and manpower solutions.",
             "homeVisibleCount": 3,
             "pageVisibleCount": 6,
+            "catalogHeading": "Our Services",
+            "catalogSlugs": [
+              "armed-guard",
+              "vehicle-security",
+              "unarmed-guard",
+              "events-security",
+              "personal-security-officer",
+              "security-analysis",
+              "armed-marshal",
+              "security-audit"
+            ],
             "services": [
               {
                 "id": 1,
@@ -1157,7 +1169,7 @@
           "SecurityIndustries1": {
             "banner": {
               "title": "Industries",
-              "image": "/PageBanner.jpg",
+              "image": "/security/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -1325,7 +1337,7 @@
         "variants": {
           "SecurityFooter1": {
             "bgImage": "/security/guard4.jpg",
-            "logoImage": "/logo-image.png",
+            "logoImage": "/security/logo-image.png",
             "logoAlt": "Shield Security & Guard Agency",
             "siteName": "SHIELD SECURITY",
             "tagline": "PREMIER SECURITY & GUARD AGENCY",
@@ -1533,7 +1545,7 @@
           "SecurityGallery1": {
             "banner": {
               "title": "Gallery",
-              "image": "/PageBanner.jpg",
+              "image": "/security/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -1585,7 +1597,7 @@
           "SecurityFAQ1": {
             "banner": {
               "title": "Faq",
-              "image": "/PageBanner.jpg",
+              "image": "/security/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -1653,7 +1665,7 @@
           "SecurityContact1": {
             "banner": {
               "title": "Contact Us",
-              "image": "/PageBanner.jpg",
+              "image": "/security/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -1769,7 +1781,7 @@
             },
             "banner": {
               "title": "Our Clients",
-              "image": "/PageBanner.jpg",
+              "image": "/security/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -1784,43 +1796,83 @@
             "clients": [
               {
                 "name": "Nova Aerospace Solutions",
-                "logo": "/clients/israel.png",
+                "logo": "/clients/israel.jpg",
                 "subtitle": "Nova Aerospace Solutions"
               },
               {
                 "name": "Zenith Automotive Corporation",
-                "logo": "/clients/sunbean.png",
+                "logo": "/clients/sunbean.jpg",
                 "subtitle": "Zenith Automotive Corporation"
               },
               {
                 "name": "Grand Heritage Luxury Resort",
-                "logo": "/clients/hotels-logo.png",
+                "logo": "/clients/hotels-logo.jpg",
                 "subtitle": "Grand Heritage Luxury Resort"
               },
               {
                 "name": "National Petroleum Resources",
-                "logo": "/clients/Hinduatan.png",
+                "logo": "/clients/Hinduatan.jpg",
                 "subtitle": "National Petroleum Resources"
               },
               {
                 "name": "Pinnacle Commercial Real Estate",
-                "logo": "/clients/unnati.png",
+                "logo": "/clients/unnati.jpg",
                 "subtitle": "Pinnacle Commercial Real Estate"
               },
               {
                 "name": "Metropolitan Energy Corporation",
-                "logo": "/clients/Indian.png",
+                "logo": "/clients/Indian.jpg",
                 "subtitle": "Metropolitan Energy Corporation"
               },
               {
                 "name": "Federal Commercial Banking Group",
-                "logo": "/clients/logo5.png",
+                "logo": "/clients/logo5.jpg",
                 "subtitle": "Commercial Banking Group"
               },
               {
                 "name": "Global Heritage Academy",
-                "logo": "/clients/logo6.png",
+                "logo": "/clients/logo6.jpg",
                 "subtitle": "Global Heritage Academy"
+              },
+              {
+                "name": "Delhivery",
+                "logo": "/clients/Delhivery.jpg",
+                "subtitle": "Delhivery"
+              },
+              {
+                "name": "Sajawat",
+                "logo": "/clients/sajawat.jpg",
+                "subtitle": "Sajawat"
+              },
+              {
+                "name": "Elbit Systems",
+                "logo": "/clients/logo1.jpg",
+                "subtitle": "Elbit Systems"
+              },
+              {
+                "name": "Delhi Development Authority",
+                "logo": "/clients/logo2.jpg",
+                "subtitle": "Delhi Development Authority"
+              },
+              {
+                "name": "C-DOT",
+                "logo": "/clients/logo3.jpg",
+                "subtitle": "C-DOT"
+              },
+              {
+                "name": "National Institute of Technology Agartala",
+                "logo": "/clients/logo4.jpg",
+                "subtitle": "National Institute of Technology Agartala"
+              },
+              {
+                "name": "Grand Columbus International School",
+                "logo": "/clients/logo7.jpg",
+                "subtitle": "Grand Columbus International School"
+              },
+              {
+                "name": "Rafael Advanced Defense Systems",
+                "logo": "/clients/logo8.jpg",
+                "subtitle": "Rafael Advanced Defense Systems"
               }
             ]
           }
@@ -1835,7 +1887,7 @@
             },
             "banner": {
               "title": "Document",
-              "image": "/PageBanner.jpg",
+              "image": "/security/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -1921,7 +1973,7 @@
             },
             "banner": {
               "title": "Enquiry Form",
-              "image": "/PageBanner.jpg",
+              "image": "/security/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -2079,7 +2131,7 @@
             },
             "banner": {
               "title": "Careers at Shield Security",
-              "image": "/PageBanner.jpg",
+              "image": "/security/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -2156,7 +2208,7 @@
             },
             "banner": {
               "title": "Privacy Policy",
-              "image": "/PageBanner.jpg",
+              "image": "/security/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -2196,7 +2248,7 @@
             },
             "banner": {
               "title": "Terms and Conditions",
-              "image": "/PageBanner.jpg",
+              "image": "/security/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -2249,7 +2301,7 @@
             },
             "banner": {
               "title": "Refund and Cancellation Policy",
-              "image": "/PageBanner.jpg",
+              "image": "/security/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -2321,7 +2373,7 @@
             },
             "banner": {
               "title": "Shipping and Delivery Policy",
-              "image": "/PageBanner.jpg",
+              "image": "/security/PageBanner.jpg",
               "items": [
                 {
                   "label": "Home",
@@ -2467,6 +2519,23 @@
       "Skills": {
         "variants": {
           "SecuritySkills1": {
+            "meta": {
+              "title": "Skills Academy: Human Capital Excellence | Shield Security",
+              "description": "Skills development initiative to create long term impact, aligned to the manpower needs of industrial and commercial clusters."
+            },
+            "banner": {
+              "title": "SHIELD SKILLS",
+              "image": "/security/PageBanner.jpg",
+              "items": [
+                {
+                  "label": "Home",
+                  "href": "/"
+                },
+                {
+                  "label": "Shield Skills"
+                }
+              ]
+            },
             "paragraphs": [
               "SHIELD GLOBAL Skills ventured into skills development to create long term impact, aligned to the manpower needs of the industrial clusters. Currently we are running 7 Centres across India (Noida, Greater Noida, Gurgaon, Bangalore, Delhi, Chennai). We offer 'Skills for Jobs' programmes linking every successful trainee to employment in organized sector.",
               "We follow a standardized value chain which ensures the 'right candidate' is skilled for 'right job'. Today, we offer 74 programmes across NSQF levels, in 21 sectors including, Industrial Security Guard, Logistics, Courier, Tourism, Hospitality etc. Our target group includes a wide range of learners, especially those who are from 'Bottom of Pyramid' groups and have little or no exposure to skills and training. We also deliver the widest range of employability programmes for under graduates and post graduates that hone their work skills and provide them a combination of domain and life skills.",

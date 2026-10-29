@@ -7,23 +7,22 @@ export interface BannerPageItem {
   href?: string;
 }
 
-const PAGE_BANNER_IMAGE = "/PageBanner.jpg";
-
 export interface BannerProps {
   title: string;
-  image?: string;
+  image: string;
   items?: BannerPageItem[];
 }
 
 export default function Banner({
   title,
+  image,
   items = [],
 }: BannerProps) {
   return (
     <ScrollReveal direction="up">
       <section className="relative isolate mt-8 flex min-h-[300px] items-end overflow-hidden bg-ink sm:mt-10 sm:min-h-[340px] lg:min-h-[380px]">
         <Image
-          src={PAGE_BANNER_IMAGE}
+          src={image}
           alt=""
           fill
           priority
