@@ -140,7 +140,7 @@
             ],
             "buttons": [
               {
-                "label": "Enquiry",
+                "label": "Enquiry Now",
                 "href": "/enquiry",
                 "icon": "arrow-right",
                 "variant": "primary"
